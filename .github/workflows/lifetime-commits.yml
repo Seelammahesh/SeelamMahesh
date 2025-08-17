@@ -1,0 +1,73 @@
+name: Update Lifetime Commit Count
+
+on:
+  schedule: [{ cron: "0 3 * * 1" }]  # runs weekly (Mon 03:00 UTC)
+  workflow_dispatch:                 # lets you run it manually
+
+jobs:
+  tally:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # to push README changes
+    env:
+      GH_TOKEN: ${{ secrets.COMMITS_TOKEN || github.token }}
+      USERNAME: Seelammahesh
+      PRIMARY_EMAIL: maheshmasina@gmail.com
+      SECONDARY_EMAIL: ""
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install jq
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y jq
+
+      - name: List repos (skip forks)
+        id: list
+        run: |
+          gh repo list "$USERNAME" --limit 300 --json name,isFork > repos.json
+          jq '[.[] | select(.isFork == false)]' repos.json > repos_noforks.json
+          echo "count=$(jq 'length' repos_noforks.json)" >> $GITHUB_OUTPUT
+
+      - name: Count commits across all repos & branches
+        id: count
+        run: |
+          set -e
+          total=0
+          noreply="${USERNAME}@users.noreply.github.com"
+          mkdir work && cd work
+          for name in $(jq -r '.[].name' ../repos_noforks.json); do
+            echo "::group::Repo $name"
+            git clone --filter=blob:none --no-checkout "https://github.com/${USERNAME}/${name}.git" "$name" || { echo "skip $name"; echo "::endgroup::"; continue; }
+            cd "$name"
+            git fetch --all --quiet --tags
+            c=$(git log --all --pretty=format:'%ae' \
+                | grep -Ei "(${PRIMARY_EMAIL}|${SECONDARY_EMAIL}|${noreply})" \
+                | wc -l || true)
+            echo "Commits by you: $c"
+            total=$((total + c))
+            cd ..
+            echo "::endgroup::"
+          done
+          echo "TOTAL=${total}" | tee ../commit_total.txt
+          echo "total=$total" >> $GITHUB_OUTPUT
+
+      - name: Update README marker
+        run: |
+          COUNT="${{ steps.count.outputs.total }}"
+          FILE="README.md"
+          START="<!--LIFETIME_COMMITS-->"
+          END="<!--/LIFETIME_COMMITS-->"
+          LINE="${START} Lifetime commits across all repositories: ${COUNT} ${END}"
+
+          if grep -q "$START" "$FILE"; then
+            perl -0777 -pe "s/${START}.*?${END}/${LINE}/s" -i "$FILE"
+          else
+            printf "\n%s\n" "$LINE" >> "$FILE"
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$FILE"
+          git commit -m "chore: update lifetime commit total to ${COUNT}" || echo "No README changes"
+          git push
