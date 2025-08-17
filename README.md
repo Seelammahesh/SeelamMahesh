@@ -68,7 +68,7 @@ I specialize in building **high-performance backend systems** with Python and Dj
 ![Stats](https://github-readme-stats.vercel.app/api?username=Seelammahesh&include_all_commits=true&count_private=true&theme=dark)
 ![Streak](https://github-readme-streak-stats.herokuapp.com?user=Seelammahesh&theme=dark)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Seelammahesh&layout=compact&theme=dark)
-<!--LIFETIME_COMMITS--> Lifetime commits across all repositories: 0 <!--/LIFETIME_COMMITS-->
+<!--LIFETIME_COMMITS--> Lifetime commits across all repositories: 400 <!--/LIFETIME_COMMITS-->
 
 
 
