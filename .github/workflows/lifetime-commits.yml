@@ -1,21 +1,30 @@
 name: Update Lifetime Commit Count
 
 on:
-  schedule: [{ cron: "0 3 * * 1" }]  # runs weekly (Mon 03:00 UTC)
-  workflow_dispatch:                 # lets you run it manually
+  schedule: [{ cron: "0 3 * * 1" }]   # weekly (Mon 03:00 UTC)
+  workflow_dispatch:                  # run manually from Actions tab
 
 jobs:
   tally:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # to push README changes
+      contents: write                 # to push README changes
     env:
+      # 👉 set this secret in: Settings → Secrets and variables → Actions
       GH_TOKEN: ${{ secrets.COMMITS_TOKEN || github.token }}
+      # 👉 your GitHub handle (no spaces)
       USERNAME: Seelammahesh
-      PRIMARY_EMAIL: maheshmasina@gmail.com
-      SECONDARY_EMAIL: ""
+      # 👉 emails/names you’ve committed with (add more separated by |)
+      AUTHOR_REGEX: "(Seelam[ ]*Mahesh|maheshmasina@gmail.com|Seelammahesh@users.noreply.github.com)"
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Authenticate gh CLI
+        run: |
+          echo "$GH_TOKEN" | gh auth login --with-token
+          gh auth status
 
       - name: Install jq
         run: |
@@ -25,31 +34,33 @@ jobs:
       - name: List repos (skip forks)
         id: list
         run: |
-          gh repo list "$USERNAME" --limit 300 --json name,isFork > repos.json
+          gh repo list "$USERNAME" --limit 300 --json name,isFork,visibility > repos.json
+          # keep only non-forks; change this line to 'cat repos.json' if you want to include forks too
           jq '[.[] | select(.isFork == false)]' repos.json > repos_noforks.json
-          echo "count=$(jq 'length' repos_noforks.json)" >> $GITHUB_OUTPUT
+          echo "Repo count: $(jq 'length' repos_noforks.json)"
 
       - name: Count commits across all repos & branches
         id: count
         run: |
           set -e
           total=0
-          noreply="${USERNAME}@users.noreply.github.com"
           mkdir work && cd work
+
           for name in $(jq -r '.[].name' ../repos_noforks.json); do
-            echo "::group::Repo $name"
+            echo "::group::Repo ${name}"
+            # shallow clone for speed, then fetch all refs
             git clone --filter=blob:none --no-checkout "https://github.com/${USERNAME}/${name}.git" "$name" || { echo "skip $name"; echo "::endgroup::"; continue; }
             cd "$name"
             git fetch --all --quiet --tags
-            c=$(git log --all --pretty=format:'%ae' \
-                | grep -Ei "(${PRIMARY_EMAIL}|${SECONDARY_EMAIL}|${noreply})" \
-                | wc -l || true)
+            # Count commits authored by your names/emails across ALL branches
+            c=$(git log --all --author="${AUTHOR_REGEX}" --pretty=oneline | wc -l || true)
             echo "Commits by you: $c"
             total=$((total + c))
             cd ..
             echo "::endgroup::"
           done
-          echo "TOTAL=${total}" | tee ../commit_total.txt
+
+          echo "TOTAL=${total}"
           echo "total=$total" >> $GITHUB_OUTPUT
 
       - name: Update README marker
@@ -61,7 +72,15 @@ jobs:
           LINE="${START} Lifetime commits across all repositories: ${COUNT} ${END}"
 
           if grep -q "$START" "$FILE"; then
-            perl -0777 -pe "s/${START}.*?${END}/${LINE}/s" -i "$FILE"
+            # Replace anything between START and END with LINE
+            awk -v s="$START" -v e="$END" -v r="$LINE" '
+              BEGIN{inblk=0}
+              {
+                if(index($0,s)){print r; inblk=1; next}
+                if(index($0,e)){inblk=0; next}
+                if(!inblk) print
+              }
+            ' "$FILE" > README.tmp && mv README.tmp "$FILE"
           else
             printf "\n%s\n" "$LINE" >> "$FILE"
           fi
