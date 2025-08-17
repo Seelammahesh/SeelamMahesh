@@ -71,6 +71,9 @@ I specialize in building **high-performance backend systems** with Python and Dj
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Seelammahesh&theme=dark&hide_border=false&layout=compact)
 
+<!--LIFETIME_COMMITS--> Lifetime commits across all repositories: 0 <!--/LIFETIME_COMMITS-->
+
+
 ---
 
 ## 🏆 Achievements
