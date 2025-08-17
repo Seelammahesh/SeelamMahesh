@@ -65,9 +65,11 @@ I specialize in building **high-performance backend systems** with Python and Dj
 ---
 
 ## 📈 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=Seelammahesh&theme=dark&hide_border=false&include_all_commits=true&count_private=true)  
-![](https://github-readme-streak-stats.herokuapp.com/?user=Seelammahesh&theme=dark&hide_border=false)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Seelammahesh&theme=dark&hide_border=false&layout=compact)  
+![Mahesh’s GitHub stats](https://github-readme-stats.vercel.app/api?username=Seelammahesh&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Seelammahesh&theme=dark&hide_border=false)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Seelammahesh&theme=dark&hide_border=false&layout=compact)
 
 ---
 
