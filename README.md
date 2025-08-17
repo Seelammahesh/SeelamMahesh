@@ -87,3 +87,5 @@ I specialize in building **high-performance backend systems** with Python and Dj
 ---
 ⭐️ *“Clear communication, practical architecture, and shipping small, valuable increments — that’s my happy place.”*  
 
+
+<!--LIFETIME_COMMITS--> Lifetime commits across all repositories: 131 <!--/LIFETIME_COMMITS-->
