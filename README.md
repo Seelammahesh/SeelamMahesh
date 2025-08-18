@@ -68,25 +68,4 @@ I specialize in building **high-performance backend systems** with Python and Dj
 ![Stats](https://github-readme-stats.vercel.app/api?username=Seelammahesh&include_all_commits=true&count_private=true&theme=dark)
 ![Streak](https://github-readme-streak-stats.herokuapp.com?user=Seelammahesh&theme=dark)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Seelammahesh&layout=compact&theme=dark)
-<!--LIFETIME_COMMITS--> Lifetime commits across all repositories: 400 <!--/LIFETIME_COMMITS-->
-
-
-
----
-
-## 🏆 Achievements
-![](https://github-profile-trophy.vercel.app/?username=Seelammahesh&theme=radical&no-frame=false&no-bg=true&margin-w=4)  
-
----
-
-## 🌐 Connect With Me
-📧 Email: [maheshmasina@gmail.com](mailto:maheshmasina@gmail.com)  
-💼 LinkedIn: [linkedin.com/in/seelam-mahesh-9283a9217](https://linkedin.com/in/seelam-mahesh-9283a9217)  
-🐙 GitHub: [github.com/Seelammahesh](https://github.com/Seelammahesh)  
-📱 Instagram: [mahesh.seelam](https://instagram.com/mahesh.seelam)  
-
----
-⭐️ *“Clear communication, practical architecture, and shipping small, valuable increments — that’s my happy place.”*  
-
-
-
+<!--LIFETIME_COMMITS--> Lifetime commits across all repositories: 0 <!--/LIFETIME_COMMITS-->
