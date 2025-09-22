@@ -22,7 +22,7 @@ I’m a backend engineer passionate about building **scalable, secure, and maint
 - Optimized APIs for **30% faster response times** and seamless integrations.  
 
 **Backend Developer** — *LDev Technologies Pvt. Ltd*  
-*sep 2022 – Aug 2025 · Hybrid (Hyderabad, Telangana)*  
+*sep 2022 – may 2025 · Hybrid (Hyderabad, Telangana)*  
 - Delivered **6+ large-scale platforms** (startups, govt portals, education, e-commerce).  
 - Collaborated with frontend & DevOps teams for smooth CI/CD deployments.  
 
