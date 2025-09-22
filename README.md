@@ -17,12 +17,12 @@ I’m a backend engineer passionate about building **scalable, secure, and maint
 
 ## 🏢 Professional Experience
 **Backend Developer** — *Drivesync Technologies*  
-*Jun 2025 – Present · Remote (Warangal, Telangana)*  
+*Jun 2025 – Present · Work from Office (Warangal, Telangana)*  
 - Building scalable backend systems for SaaS products.  
 - Optimized APIs for **30% faster response times** and seamless integrations.  
 
 **Backend Developer** — *LDev Technologies Pvt. Ltd*  
-*sep 2022 – may 2025 · Hybrid (Hyderabad, Telangana)*  
+*Sep 2022 – May 2025 · Work from Office (Hyderabad, Telangana)*  
 - Delivered **6+ large-scale platforms** (startups, govt portals, education, e-commerce).  
 - Collaborated with frontend & DevOps teams for smooth CI/CD deployments.  
 
@@ -68,4 +68,4 @@ I’m a backend engineer passionate about building **scalable, secure, and maint
 
 ## 📫 Let’s Connect
 - [LinkedIn](https://www.linkedin.com/in/seelammahesh/)  
-- 📧 Email: maheshmasina@gmail.com 
+- 📧 Email: maheshmasina@gmail.com  
