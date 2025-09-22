@@ -68,4 +68,4 @@ I’m a backend engineer passionate about building **scalable, secure, and maint
 
 ## 📫 Let’s Connect
 - [LinkedIn](https://www.linkedin.com/in/seelammahesh/)  
-- 📧 Email: seelammahesh@example.com  
+- 📧 Email: maheshmasina@gmail.com 
