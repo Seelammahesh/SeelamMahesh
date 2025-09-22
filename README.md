@@ -1,71 +1,71 @@
 # 👋 Hi, I’m Seelam Mahesh  
 
-💻 **Backend Developer | Django & REST APIs | Scalable Web Applications**  
+💻 **Backend Developer | Python, Django, REST APIs | 3+ Years Experience**  
 
-I specialize in building **high-performance backend systems** with Python and Django that remain maintainable long after the sprint ends. I enjoy turning fuzzy requirements into **clean models, REST APIs, and efficient architectures** that teams can trust.  
+I’m a backend engineer passionate about building **scalable, secure, and maintainable web applications**. With 3+ years of hands-on experience in **Python & Django**, I specialize in designing clean architectures, REST APIs, and backend systems that power real-world SaaS products, e-commerce platforms, and enterprise apps.  
 
 ---
 
 ## 🔭 What I Do
 - 🛠 Backend Development with **Django, DRF, FastAPI**  
-- 🗄 Database design with **PostgreSQL, MySQL, SQLite**  
-- ⚡ Performance tuning with **Redis, Celery, Docker, Nginx, Gunicorn**  
-- 🤝 Seamless integration with **React/TypeScript** front ends  
-- ✅ CI/CD automation using **GitHub Actions, Testing, OAuth/JWT**  
+- 🗄 Scalable Database Design (**PostgreSQL, MySQL, SQLite**)  
+- ⚡ Performance tuning & async tasks (**Redis, Celery, Docker, Nginx**)  
+- 🤝 Integration with **React/TypeScript** front ends  
+- ✅ CI/CD & automation with **GitHub Actions, Testing, OAuth/JWT**  
 
 ---
 
 ## 🏢 Professional Experience
-**Back End Developer** — *Drivesync Technologies*  
+**Backend Developer** — *Drivesync Technologies*  
 *Jun 2025 – Present · Remote (Warangal, Telangana)*  
-- Developing scalable backend systems for SaaS products.  
-- Focus on API optimization and seamless integrations.  
+- Building scalable backend systems for SaaS products.  
+- Optimized APIs for **30% faster response times** and seamless integrations.  
 
-**Back End Developer** — *LDev Technologies Pvt. Ltd*  
+**Backend Developer** — *LDev Technologies Pvt. Ltd*  
 *Feb 2023 – Aug 2025 · Hybrid (Hyderabad, Telangana)*  
-- Built and maintained **large-scale web platforms and apps** used across startups, govt portals, and multi-school platforms.  
-- Collaborated with cross-functional teams (frontend, DevOps) to ensure smooth deployments.  
+- Delivered **6+ large-scale platforms** (startups, govt portals, education, e-commerce).  
+- Collaborated with frontend & DevOps teams for smooth CI/CD deployments.  
 
 ---
 
 ## 📌 Highlight Projects
 🔹 **[SpeedExam](https://www.speedexam.net/)** – Online exam & assessment platform  
-> AI-based proctoring, live monitoring, question banks, multi-language, concurrent sessions.  
-*Tech:* Django, DRF, Bootstrap, HTML5, JavaScript, SQL  
+> AI proctoring, live monitoring, question banks, multi-language, concurrent sessions.  
+*Impact:* Enabled **10,000+ students to take exams concurrently**.  
+*Tech:* Django, DRF, SQL, Redis, Docker  
 
 🔹 **ManaPanta Apps (Driver, Farmer, Staff)**  
-> Mobile apps powering field operations (assignments, farm services, workforce dispatch).  
+> Mobile apps for farm operations, workforce dispatch & field services.  
 *Tech:* Django REST, Flutter, Dart, Python  
 
 🔹 **[CCW](https://ccw.ldev.in)** – Multi-school NIL merchandise marketplace  
-> Storefronts for colleges selling athlete merchandise with revenue-sharing model.  
-*Tech:* Django REST, TailwindCSS, JavaScript, Python  
+> Custom storefronts for colleges selling athlete merchandise.  
+*Tech:* Django REST, TailwindCSS, JavaScript  
 
-🔹 **[Vitti Living](https://www.vittiliving.com/)** – Contemporary e-commerce  
-> Luxury furniture brand with full catalog, cart flow, and responsive design.  
+🔹 **[Vitti Living](https://www.vittiliving.com/)** – Contemporary e-commerce platform  
 *Tech:* Django REST, TailwindCSS, HTML5, JavaScript  
 
-🔹 **[iTNT Hub](https://itnthub.tn.gov.in/)** – Govt. of Tamil Nadu  
-> Deep-tech innovation network portal (startups, mentors, VCs, policy).  
-*Tech:* Django, DRF, Bootstrap, TailwindCSS, JavaScript  
-
-🔹 **[St. Peter’s Law Academy](https://stpeterslaw.com/)**  
-> Coaching institute portal with e-learning access, hybrid batches, mentorship.  
-*Tech:* Django REST, Bootstrap, Python  
+🔹 **[iTNT Hub](https://itnthub.tn.gov.in/)** – Govt of Tamil Nadu deep-tech network portal  
+*Tech:* Django, DRF, TailwindCSS, JavaScript  
 
 ---
 
 ## 🛠 Tech Stack
-**Languages:** Python, C, JavaScript, SQL  
-**Frameworks:** Django, Django REST Framework, FastAPI, Bootstrap, TailwindCSS, Flutter/Dart  
+**Languages:** Python, JavaScript, SQL, C  
+**Frameworks:** Django, DRF, FastAPI, Bootstrap, TailwindCSS, Flutter/Dart  
 **Databases:** PostgreSQL, MySQL, SQLite, Redis  
 **Tools:** Docker, GitHub Actions, Celery, Nginx, Gunicorn  
-**Other:** OAuth/JWT, Testing (Pytest/Unittest), CI/CD  
+**Other:** OAuth/JWT, Pytest/Unittest, CI/CD  
 
 ---
 
 ## 📈 GitHub Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=Seelammahesh&include_all_commits=true&count_private=true&theme=dark)
-![Streak](https://github-readme-streak-stats.herokuapp.com?user=Seelammahesh&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Seelammahesh&layout=compact&theme=dark)
-<!--LIFETIME_COMMITS--> Lifetime commits across all repositories: 0 <!--/LIFETIME_COMMITS-->
+![Stats](https://github-readme-stats.vercel.app/api?username=Seelammahesh&include_all_commits=true&count_private=true&theme=dark)  
+![Streak](https://github-readme-streak-stats.herokuapp.com?user=Seelammahesh&theme=dark)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Seelammahesh&layout=compact&theme=dark)  
+
+---
+
+## 📫 Let’s Connect
+- [LinkedIn](https://www.linkedin.com/in/seelammahesh/)  
+- 📧 Email: seelammahesh@example.com  
