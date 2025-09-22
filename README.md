@@ -1,6 +1,6 @@
 # 👋 Hi, I’m Seelam Mahesh  
 
-💻 **Backend Developer | Python, Django, REST APIs | 3+ Years Experience**  
+💻 **Backend Developer | Python, Django, REST APIs | 3 Years Experience**  
 
 I’m a backend engineer passionate about building **scalable, secure, and maintainable web applications**. With 3+ years of hands-on experience in **Python & Django**, I specialize in designing clean architectures, REST APIs, and backend systems that power real-world SaaS products, e-commerce platforms, and enterprise apps.  
 
