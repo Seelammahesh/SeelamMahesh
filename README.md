@@ -1,4 +1,4 @@
-# 👋 Hi, I’m Seelam Mahesh  
+# 👋 Hi, I’m Mahesh Seelam
 
 💻 **Backend Developer | Python, Django, REST APIs | 3 Years Experience**  
 
