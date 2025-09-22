@@ -11,7 +11,6 @@ I’m a backend engineer passionate about building **scalable, secure, and maint
 - 🗄 Scalable Database Design (**PostgreSQL, MySQL, SQLite**)  
 - ⚡ Performance tuning & async tasks (**Redis, Celery, Docker, Nginx**)  
 - 🤝 Integration with **React/TypeScript** front ends  
-- ✅ CI/CD & automation with **GitHub Actions, Testing, OAuth/JWT**  
 
 ---
 
