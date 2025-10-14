@@ -56,12 +56,6 @@ I’m a backend engineer passionate about building **scalable, secure, and maint
 **Tools:** Docker, GitHub Actions, Celery, Nginx, Gunicorn  
 **Other:** OAuth/JWT, Pytest/Unittest, CI/CD  
 
----
-
-## 📈 GitHub Stats
-![Stats](https://github-readme-stats.vercel.app/api?username=Seelammahesh&include_all_commits=true&count_private=true&theme=dark)  
-![Streak](https://github-readme-streak-stats.herokuapp.com?user=Seelammahesh&theme=dark)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Seelammahesh&layout=compact&theme=dark)  
 
 ---
 
@@ -69,4 +63,3 @@ I’m a backend engineer passionate about building **scalable, secure, and maint
 - [LinkedIn](https://www.linkedin.com/in/seelammahesh/)  
 - 📧 Email: maheshmasina@gmail.com  
 
-<!--LIFETIME_COMMITS--> Lifetime commits across all repositories: 0 <!--/LIFETIME_COMMITS-->
