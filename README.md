@@ -63,3 +63,5 @@ I’m a backend engineer passionate about building **scalable, secure, and maint
 - [LinkedIn](https://www.linkedin.com/in/mahesh-seelam/)  
 - 📧 Email: maheshmasina@gmail.com  
 
+
+<!--LIFETIME_COMMITS--> Lifetime commits across all repositories: 0 <!--/LIFETIME_COMMITS-->
