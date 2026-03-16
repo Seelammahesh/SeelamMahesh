@@ -21,7 +21,7 @@ With **3+ years of production experience**, I enjoy turning complex requirements
 ## 💼 Professional Experience
 
 **Backend Developer — Drivesync Technologies**  
-*Jun 2025 – Present*
+*Jun 2025 – Nov 2025*
 
 Building scalable backend systems for SaaS platforms and improving API performance and reliability.
 
@@ -35,7 +35,7 @@ Delivered **multiple production platforms** across education, government, market
 ## 🚀 Selected Projects
 
 ### 🧠 SpeedExam  
-Online examination platform with AI proctoring and live monitoring.
+Online examination platform 
 
 **Impact**
 - Supported **10,000+ concurrent students**
@@ -100,3 +100,6 @@ https://www.linkedin.com/in/mahesh-seelam/
 
 Email  
 maheshmasina@gmail.com
+
+Website 
+https://maheshseelamportfolio.vercel.app/
