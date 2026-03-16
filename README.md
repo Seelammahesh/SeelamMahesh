@@ -153,7 +153,7 @@ https://www.linkedin.com/in/mahesh-seelam/
 📧 Email  
 maheshmasina@gmail.com
 
-Portfolio
+🔗 Portfolio  
 https://maheshseelamportfolio.vercel.app/
 
 ---
