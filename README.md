@@ -1,66 +1,102 @@
-# 👋 Hi, I’m Mahesh Seelam
+# 👋 Hi, I'm Mahesh Seelam
 
-💻 **Backend Developer | Python, Django, REST APIs | 3 Years Experience**  
+🚀 Backend Developer focused on building **scalable APIs, reliable systems, and real-world products**.
 
-I’m a backend engineer passionate about building **scalable, secure, and maintainable web applications**. With 3+ years of hands-on experience in **Python & Django**, I specialize in designing clean architectures, REST APIs, and backend systems that power real-world SaaS products, e-commerce platforms, and enterprise apps.  
+I work primarily with **Python, Django, and FastAPI**, designing backend architectures that power SaaS platforms, e-commerce systems, education platforms, and enterprise applications.
 
----
-
-## 🔭 What I Do
-- 🛠 Backend Development with **Django, DRF, FastAPI**  
-- 🗄 Scalable Database Design (**PostgreSQL, MySQL, SQLite**)  
-- ⚡ Performance tuning & async tasks (**Redis, Celery, Docker, Nginx**)  
-- 🤝 Integration with **React/TypeScript** front ends  
+With **3+ years of production experience**, I enjoy turning complex requirements into **clean, maintainable, and high-performance backend systems**.
 
 ---
 
-## 🏢 Professional Experience
-**Backend Developer** — *Drivesync Technologies*  
-*Jun 2025 – Present · Work from Office (Warangal, Telangana)*  
-- Building scalable backend systems for SaaS products.  
-- Optimized APIs for **30% faster response times** and seamless integrations.  
+## ⚙️ What I Build
 
-**Backend Developer** — *LDev Technologies Pvt. Ltd*  
-*Sep 2022 – May 2025 · Work from Office (Hyderabad, Telangana)*  
-- Delivered **6+ large-scale platforms** (startups, govt portals, education, e-commerce).  
-- Collaborated with frontend & DevOps teams for smooth CI/CD deployments.  
+• Scalable backend systems with **Django, DRF, FastAPI**  
+• High-performance REST APIs  
+• Robust database architectures with **PostgreSQL & Redis**  
+• Background task processing using **Celery**  
+• Production deployments with **Docker, Nginx & CI/CD**
 
 ---
 
-## 📌 Highlight Projects
-🔹 **[SpeedExam](https://www.speedexam.net/)** – Online exam & assessment platform  
-> AI proctoring, live monitoring, question banks, multi-language, concurrent sessions.  
-*Impact:* Enabled **10,000+ students to take exams concurrently**.  
-*Tech:* Django, DRF, SQL, Redis, Docker  
+## 💼 Professional Experience
 
-🔹 **ManaPanta Apps (Driver, Farmer, Staff)**  
-> Mobile apps for farm operations, workforce dispatch & field services.  
-*Tech:* Django REST, Flutter, Dart, Python  
+**Backend Developer — Drivesync Technologies**  
+*Jun 2025 – Present*
 
-🔹 **[CCW](https://ccw.ldev.in)** – Multi-school NIL merchandise marketplace  
-> Custom storefronts for colleges selling athlete merchandise.  
-*Tech:* Django REST, TailwindCSS, JavaScript  
+Building scalable backend systems for SaaS platforms and improving API performance and reliability.
 
-🔹 **[Vitti Living](https://www.vittiliving.com/)** – Contemporary e-commerce platform  
-*Tech:* Django REST, TailwindCSS, HTML5, JavaScript  
+**Backend Developer — LDev Technologies Pvt. Ltd**  
+*Sep 2022 – May 2025*
 
-🔹 **[iTNT Hub](https://itnthub.tn.gov.in/)** – Govt of Tamil Nadu deep-tech network portal  
-*Tech:* Django, DRF, TailwindCSS, JavaScript  
+Delivered **multiple production platforms** across education, government, marketplace, and e-commerce domains while collaborating closely with frontend and DevOps teams.
 
 ---
 
-## 🛠 Tech Stack
-**Languages:** Python, JavaScript, SQL, C  
-**Frameworks:** Django, DRF, FastAPI, Bootstrap, TailwindCSS, Flutter/Dart  
-**Databases:** PostgreSQL, MySQL, SQLite, Redis  
-**Tools:** Docker, GitHub Actions, Celery, Nginx, Gunicorn  
-**Other:** OAuth/JWT, Pytest/Unittest, CI/CD  
+## 🚀 Selected Projects
 
+### 🧠 SpeedExam  
+Online examination platform with AI proctoring and live monitoring.
+
+**Impact**
+- Supported **10,000+ concurrent students**
+- Real-time exam sessions and large question banks
+
+**Tech**
+Django • DRF • Redis • Docker • SQL
+
+
+### 🌾 ManaPanta Apps  
+Farm operations and workforce management platform used by drivers, farmers, and staff.
+
+**Tech**
+Django REST • Flutter • Python
+
+
+### 🛍 CCW Marketplace  
+Multi-school NIL merchandise marketplace with custom storefronts.
+
+**Tech**
+Django REST • TailwindCSS • JavaScript
+
+
+### 🏠 Vitti Living  
+Modern e-commerce platform for premium furniture and home décor.
+
+**Tech**
+Django REST • TailwindCSS • JavaScript
+
+
+### 🧪 iTNT Hub  
+Deep-tech ecosystem portal for the **Government of Tamil Nadu**.
+
+**Tech**
+Django • DRF • TailwindCSS
 
 ---
 
-## 📫 Let’s Connect
-- [LinkedIn](https://www.linkedin.com/in/mahesh-seelam/)  
-- 📧 Email: maheshmasina@gmail.com  
+## 🧰 Tech Stack
 
+**Languages**  
+Python • JavaScript • SQL
 
+**Frameworks**  
+Django • Django REST Framework • FastAPI
+
+**Databases**  
+PostgreSQL • MySQL • Redis
+
+**Tools & Infrastructure**  
+Docker • Celery • Nginx • GitHub Actions • Gunicorn
+
+**Other**  
+JWT Authentication • OAuth • CI/CD • Testing
+
+---
+
+## 📫 Connect
+
+LinkedIn  
+https://www.linkedin.com/in/mahesh-seelam/
+
+Email  
+maheshmasina@gmail.com
