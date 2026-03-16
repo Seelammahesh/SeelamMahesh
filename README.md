@@ -141,11 +141,7 @@ JWT Authentication • OAuth • CI/CD • Testing
 
 ---
 
-## 📊 GitHub Stats
 
-![Mahesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=Seelammahesh&show_icons=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Seelammahesh&layout=compact)
 
 ---
 
